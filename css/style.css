@@ -1,0 +1,41 @@
+:root{
+    --goldColor: #F0BF5F;
+    --grayColor: #333333;
+    --whiteColor: #ffffff;
+    --headerFontSize: 40px;
+    --textFontSize: 16px;
+    --blockHeaderFontSize: 20px;
+}
+
+body{
+    background-color: #E5E5E5;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.advantages__list{
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 23px;
+    row-gap: 23px;
+}
+
+.advantages__item{
+    background-color: var(--whiteColor);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 41px 45px;
+}
+
+.advantages__logo{
+    margin-bottom: 8px;
+}
+
+.advantages__text{
+    font-family: "MullerRegular";
+    font-size: var(--textFontSize);
+    color: var(--grayColor);
+    line-height: 32px;
+}
