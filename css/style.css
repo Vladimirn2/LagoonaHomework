@@ -13,6 +13,13 @@ body{
     margin: 0 auto;
 }
 
+.header__h2{
+    font-family: "MullerBold";
+    font-size: var(--headerFontSize);
+    color: var(--grayColor);
+    margin: 0 0 30px 40px;
+}
+
 .advantages__list{
     padding: 0;
     display: grid;
