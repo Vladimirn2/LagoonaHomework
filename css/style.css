@@ -13,7 +13,7 @@ body{
     margin: 0 auto;
 }
 
-.header__h2{
+.h2{
     font-family: "MullerBold";
     font-size: var(--headerFontSize);
     color: var(--grayColor);
